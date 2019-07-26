@@ -1,0 +1,132 @@
+.home_menu{
+  position: fixed;
+   width: 100%;
+   height:100px;
+   background-color: #fff;
+   padding-top: 0;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+
+    
+}
+ header ul {
+  opacity: 1;
+  margin-left:8em;
+}
+ header .navbar-brand{
+   margin-bottom:0.5em;
+ }
+.menu{
+   opacity: 0;
+}
+
+
+/* start land*/
+.land {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    height:500px; 
+    width: 100%;
+}
+.land_bg {
+    background-image: url(../img/breadcrumb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.land::after{
+position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #112e41;
+    content: "";
+    opacity: 0.75;
+    z-index: -1;
+}
+.wrapper{
+   width: 100%;
+   height: 100%;
+   padding: 2em;
+   display: flex;
+    align-items: center;
+
+}
+.land_wrapper{
+ width: 100%;
+}
+.land h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+ }
+.land p{
+  font-size: 15px;
+    color: #fff;
+}
+.land_wrapper span{
+   padding-left:0.3em;
+   padding-right:0.3em; 
+
+}
+/* end land*/
+@media only screen and (min-width: 320px) and (max-width:500px){
+   .container{
+     padding: 1em;
+   }
+}
+@media only screen and (min-width: 320px) and (max-width:900px){
+.home_menu{
+  position: absolute;
+  background-color: transparent;
+  height: auto;
+    box-shadow:none;
+
+}
+ .menu{
+   opacity: 1;
+}
+ header ul{
+   opacity: 0;
+  margin-left:0em;
+ }
+ header .navbar-brand {
+   margin-bottom:2em; 
+ }
+.land_wrapper h2{
+      font-size: 35px;
+
+}
+}
+
+@media only screen and (min-width: 600px){
+.land p{
+  font-size:20px;
+  font-weight: bolder; 
+}
+}
+
+@media only screen and (min-width: 770px) and (max-width: 999px){
+   footer{
+ display: block;
+ padding-left:0;
+}
+footer ul{
+   width:100%; 
+}
+footer p{
+ width: 70%;
+}
+footer .last{
+  width:100%; 
+}
+
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+  footer{
+     padding-left:1em; 
+  }
+}

@@ -1,0 +1,214 @@
+*{
+	 box-sizing: border-box;
+}
+
+/* start blog */
+.main_blog {
+	 position: relative;
+	 width: 100%;
+}  
+.details{
+	position: relative;
+   width: 100%;
+	display: grid;
+    grid-template-columns: repeat(1,2fr 1fr);
+    grid-gap:20px;
+}
+.blog{
+    position: relative;
+    width:100%; 
+    padding:3em; 
+}
+
+.blog .posts{
+    position: relative; 
+    width:100%; 
+     margin-top:5em; 
+}
+.card{
+	 margin-bottom: 2em;
+}
+.blog .posts .info{
+    position: relative;
+    padding:1em;
+}
+.card_top{
+   width: 100%;
+}
+.blog .posts .info a{
+     text-decoration: none;
+    color:  #ff1481;
+    text-transform: uppercase;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+}
+.blog .posts .info h5{
+        font-weight: 600;
+    line-height: 1.5;
+    font-size: 20px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.blog  .posts .info h5:hover{
+    color:  #ff1481;;
+   
+}
+
+.blog  .posts .info ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.blog  .posts .info li{
+        display: inline-block;
+    color: #8a8a8a;
+    margin-right: 14px;
+}
+.blog  .posts .info li span {
+        color: #8a8a8a;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.blog_right_sidebar .single_sidebar_widget {
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.blog_right_sidebar .widget_title {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-style: inherit;
+    font-weight: 600;
+    color: #2a2a2a;
+}
+.padding_0{
+	 padding:0; 
+}
+.blog_right_sidebar .post_category_widget .cat-list li {
+    border-bottom: 1px solid #f0e9ff;
+    transition: all 0.3s ease 0s;
+    padding-bottom: 12px;
+}
+.blog_right_sidebar .post_category_widget .cat-list li a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+    transition: 0.5s;
+    display: flex;
+}    
+.blog_right_sidebar .post_category_widget .cat-list li a p {
+    margin-bottom: 0px;
+}
+.blog_right_sidebar .single_sidebar_widget {
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.blog_right_sidebar .search_widget .input-group button {
+    background: #fff;
+    border-left: 0;
+    border: 1px solid #f0e9ff;
+    padding: 4px 15px;
+    border-left:0;
+ }
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}    
+.blog_right_sidebar .popular_post_widget .post_item .media-body {
+    justify-content: center;
+    align-self: center;
+    padding-left: 20px;
+}    
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+.blog_right_sidebar .popular_post_widget .post_item + .post_item {
+    margin-top: 20px
+}
+.blog_right_sidebar .tag_cloud_widget ul li {
+    display: inline-block;
+}
+.blog_right_sidebar .tag_cloud_widget ul li a {
+    display: inline-block;
+    border: 1px solid #eeeeee;
+    background: #fff;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    border-radius:10px; 
+    transition: all 0.3s ease 0s;
+    color: #888;
+}
+.blog_right_sidebar .instagram_feeds .instagram_row {
+    display: flex;
+    margin-right: -6px;
+    margin-left: -6px;
+    flex-wrap: wrap;
+}    
+.blog_right_sidebar .instagram_feeds .instagram_row li {
+    width: 33.33%;
+    float: left;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 15px;
+}
+.img-fluid{
+  height: auto;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline: none;
+}
+.button{
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 54px;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2em;
+    text-transform: uppercase;
+    background-color: #ff1481;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+ }
+ .blog_right_sidebar .widget_title::after {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 1px solid #f0e9ff;
+ }   
+@media only screen and (min-width:320px) and (max-width:950px) {
+   .details{
+   	 display: block;
+   }
+   .card{
+   	 width: 100%;
+   }
+   .blog{
+   	 padding: 0;
+   }
+
+}

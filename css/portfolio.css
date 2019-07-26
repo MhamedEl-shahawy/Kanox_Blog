@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
+
+/* our last work */
+.our_latest_work{
+   position: relative;
+   width: 100%;
+}
+ .label {
+   width: 100%;
+   text-align: center;
+}
+ .label p{
+  color: #ff1481;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    line-height: 14px;
+}
+.label h2 {
+    font-size: 42px;
+    color: #112e41;
+    font-weight: 700;
+    position: relative;
+}
+.our_latest_work  .work .work_fake{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   width: 100%;
+   grid-gap: 20px; 
+    margin-bottom: 1em;
+}
+.our_latest_work .works  .work_fake h2{
+      color: #ff1481;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.our_latest_work .works h5{
+  color: #ff1481;
+  }
+.our_latest_work .single_work_demo{
+   width: 60%;
+}
+.our_latest_work .demo_img img {
+    width: 100%;
+}
+.offset-lf{
+   margin-left:18%;
+}
+.btn_3{
+    font-size: 14px;
+    color: #112e41;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    padding-top: 32px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    transition: 0.5s all;
+}
+.btn_3 img{
+    margin-left:10px; 
+
+}
+.btn_3:hover{
+  color: #ff1481;
+
+}
